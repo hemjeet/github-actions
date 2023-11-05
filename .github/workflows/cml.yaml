@@ -26,4 +26,5 @@ jobs:
         run: |
           # Post reports as comments in GitHub PRs
           cat results.txt >> report.md
+          echo "![](./model_results.png)" >> report.md
           cml comment create report.md
