@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 # Functions and procedures
-def plot_predictions(train_data, train_labels,  test_data, test_labels,  predictions):
+def plot_predictions_on_data(train_data, train_labels,  test_data, test_labels,  predictions):
   """
   Plots training data, test data and compares predictions.
   """
